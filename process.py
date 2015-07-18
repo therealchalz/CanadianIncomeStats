@@ -17,17 +17,20 @@ csvFormat={"firstDataRow": 2,
 rowFields={29:"totalIncome", 
 	2:"taxableReturns", 
 	3:"untaxableReturns", 
-	4:"totalReturns"}
+	4:"totalReturns",
+	104:"totalTaxPayable"}
 # row number to wanted column mapping (index of first population column, which gets incremented by columnIncrement)
 rowDataColumn={29:csvFormat["firstPopColumnAmount"], 
 	2:csvFormat["firstPopColumnCount"], 
 	3:csvFormat["firstPopColumnCount"], 
-	4:csvFormat["firstPopColumnCount"]}
+	4:csvFormat["firstPopColumnCount"],
+	104:csvFormat["firstPopColumnAmount"]}
 # Population field to load function mapping
 fieldLoadFunctions = {"totalIncome": (lambda x: x*1000), 
 	"taxableReturns": (lambda x: x), 
 	"untaxableReturns": (lambda x: x), 
-	"totalReturns": (lambda x: x)}
+	"totalReturns": (lambda x: x),
+	"totalTaxPayable": (lambda x: x*1000)}
 
 
 class Population:
@@ -35,15 +38,18 @@ class Population:
 		self.count=0
 		self.taxableReturns=0
 		self.untaxableReturns=0
+		self.totalTaxPayable=0
 		self.totalReturns=0
 		self.totalIncome=0
 		self.province="xx"
 		self.avgIncome=0
+		self.avgTaxPayable=0
 	def finish(self):
 		#self.count = self.taxableReturns + self.untaxableReturns
 		self.count = self.totalReturns
 		if self.count > 0:
 			self.avgIncome = self.totalIncome/self.count
+			self.avgTaxPayable = self.totalTaxPayable/self.count
 
 
 
@@ -91,31 +97,36 @@ def processFile(file, province):
 	totalReturns = 0
 	for pop in populations:
 		pop.finish()
-		print "Pop: ", pop.avgIncome, " ", pop.count, " ", pop.province, " ", pop.totalIncome
+		print "Pop: ", pop.avgIncome, " ", pop.count, " ", pop.province, " ", pop.totalIncome, " ", pop.avgTaxPayable
 		totalReturns += pop.totalReturns
 
 	print "Total returns: ", totalReturns
 
-	percent = 8
+	percent = 1
 	
 	topStart = totalReturns * (100-percent) / 100 
 	topWorth = 0
+	topTaxPaid = 0
 	bottomWorth = 0
+	bottomTaxPaid = 0
 	returnsSoFar = 0
 	for pop in populations:
 		if returnsSoFar + pop.totalReturns < topStart:
 			bottomWorth += pop.totalIncome
+			bottomTaxPaid += pop.totalTaxPayable
 		elif returnsSoFar >= topStart:
 			topWorth += pop.totalIncome
+			topTaxPaid += pop.totalTaxPayable
 		else:
 			numBottom = topStart - returnsSoFar
 			bottomWorth += pop.avgIncome * numBottom
+			bottomTaxPaid += pop.avgTaxPayable * numBottom
 			topWorth += pop.avgIncome * (pop.totalReturns - numBottom)
+			topTaxPaid += pop.avgTaxPayable * (pop.totalReturns - numBottom)
 		returnsSoFar += pop.totalReturns
 
 
-	print "Top", percent, "% of people ("+str((totalReturns*percent/100))+") got", (topWorth*100/(topWorth+bottomWorth)), "% of the income"
-		
+	print "Top", percent, "% of people ("+str((totalReturns*percent/100))+") got", (topWorth*100/(topWorth+bottomWorth)), "% of the income and paid", (topTaxPaid*100/(topTaxPaid+bottomTaxPaid)), "% of the tax"
 
 
 if __name__ == "__main__":
