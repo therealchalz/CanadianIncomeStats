@@ -1,0 +1,104 @@
+#,Item,Poste,Tax year/D'année d'imposition, Grand total/Total global #,Grand total/Total global $ (000),Employment/Emploi # ,Employment/Emploi $ (000),Fishing and Farming/ Pêche et Agriculture #,Fishing and Farming/ Pêche et Agriculture $ (000),Professional income/Professions libérales #,Professional income/Professions libérales $ (000),Sales (self-employed)/Ventes (travail indép.) #,Sales (self-employed)/Ventes (travail indép.) $ (000),Proprietorships/Partnerships/Entreprises indiv./Soc. de pers. #,Proprietorships/Partnerships/Entreprises indiv./Soc. de pers. $ (000),Investment/Placement #,Investment/Placement $ (000),Pension/Pension #,Pension/Pension $ (000),Benefit/Bénéficiaire #,Benefit/Bénéficiaire $ (000),Others/Autre #,Others/Autre $ (000)
+1,Number of taxable returns,Nombre de déclarations imposables,2012, 511340,,323960,,4650,,3010,,1720,,18970,,17680,,118130,,14950,,8280,
+2,Number of non-taxable returns,Nombre de déclarations non imposables,2012, 224740,,85580,,630,,230,,220,,3810,,6810,,66550,,49140,,11780,
+3,Total number of returns,Nombre total de déclarations,2012, 736080,,409540,,5280,,3240,,1930,,22780,,24490,,184680,,64090,,20050,
+4,Employment income,Revenus d'emploi,2012, 466060,16885372,406050,16262391,1270,19851,730,12401,370,2993,4490,59244,8400,198995,17450,144072,22100,129573,5200,55851
+5,Commissions (from employment),Commissions (d'emploi),2012, 12850,248489,11960,242652,,,,,30,237,120,1477,140,2664,200,463,290,405,80,472
+6,Other employment income,Autres revenus d'emploi,2012, 51070,236104,32590,199978,170,284,150,754,60,107,730,2318,1040,4259,14300,24170,1170,1760,850,2472
+7,Old Age Security pension (OASP),Pension de la sécurité de la vieillesse,2012, 164270,994429,8040,40165,770,4531,390,2025,200,1145,2020,11257,5580,30954,138100,854684,7640,42404,1530,7262
+8,CPP or QPP benefits,Prestations du Régime de pensions du Canada (RPC) ou du Régime de rentes du Québec (RRQ),2012, 228420,1497863,28940,160430,1300,7129,520,3761,400,2680,3810,20303,7560,47570,170200,1182188,10970,45346,4730,28456
+9,Other pensions or superannuation,Autres pensions et pensions de retraite,2012, 130060,2604020,12110,221570,350,4751,250,6901,120,1751,1230,20451,3690,70319,109500,2242903,920,5656,1890,29718
+10,Elected split-pension amount ,Choix du montant de pension fractionné,2012, 43520,468027,7430,48168,140,882,110,886,70,584,710,5731,1270,9808,32720,395948,380,1911,690,4111
+11,Universal Child Care Benefit (UCCB),Prestation universelle pour la garde d'enfants (PUGE),2012, 40610,59118,21520,29343,160,247,250,369,150,231,1830,2707,1050,1646,390,484,14810,23391,450,699
+12,Employment Insurance and other benefits,Prestations d'assurance-emploi et autres prestations,2012, 102480,781071,70320,431286,3560,46128,80,470,60,358,920,6125,860,7124,4240,26662,21260,254234,1210,8683
+13,Taxable amount of dividends from taxable Canadian corporations,Montant imposable des dividendes,2012, 98390,1535657,36800,180347,1050,7741,790,7937,360,2093,2460,11089,19250,1209824,34140,106386,1170,1250,2390,8989
+14,Interest and other investment income,Intérêts et autres revenus de placements,2012, 133880,196502,46960,33919,1520,2041,1090,2794,360,248,3700,3933,12220,69860,61650,77308,3090,1657,3290,4741
+15,Net partnership income (Limited or non-active partners only),Revenus nets de société de personnes,2012, 990,3429,340,188,,,30,33,,,20,17,290,2977,280,120,,,30,67
+16,Net rental income,Revenus nets de location,2012, 19020,49713,8310,905,150,207,190,-19,150,78,1340,3110,5270,42458,3090,2763,230,32,290,178
+17,Taxable capital gains,Gains en capital imposables,2012, 43040,269542,14450,27932,520,4157,370,1019,180,722,1280,4591,6650,199928,17730,23665,500,326,1360,7201
+18,Registered retirement savings plan income (RRSP),Revenu d'un régime enregistré d'épargne-retraite (REER),2012, 57080,331450,31410,106313,330,2246,280,1782,250,1695,1890,10870,1910,15030,14100,76447,1880,5087,5050,111980
+19,Other income,Autres revenus,2012, 92370,469477,38440,120515,1000,4813,820,3632,350,1261,2010,5825,6890,28306,30650,67339,2590,6128,9620,231659
+20,Net business income,Revenus nets d'entreprise,2012, 40140,413430,10250,11327,210,698,110,170,110,136,22250,387795,1670,7979,4130,4490,790,387,620,448
+21,Net professional income,Revenus nets de profession libérale,2012, 6550,254508,1910,9805,20,89,3200,234444,20,73,90,694,400,5304,730,3380,80,21,110,700
+22,Net commission income,Revenus nets de commissions,2012, 4610,71049,1620,2462,30,401,20,83,1900,64867,130,492,240,1698,430,895,140,66,100,86
+23,Net farming income,Revenus nets d'agriculture,2012, 4140,8830,1170,-3893,1490,17392,,,,,190,-758,230,-518,910,-2752,70,-291,50,-168
+24,Net fishing income,Revenus nets de pêche,2012, 5500,117890,880,3492,3730,108369,,,,,60,411,160,2088,190,471,440,2943,40,82
+25,Workers' compensation benefits,Indemnités pour accidents du travail,2012, 20950,178483,8820,33596,80,544,10,72,20,95,250,1583,170,1464,5290,30638,6120,109131,180,1359
+26,Social assistance payments,Prestations d'assistance sociale,2012, 32930,198445,4440,13336,30,88,10,38,20,39,170,609,20,87,1900,5006,26090,178349,260,893
+27,Net federal supplements,Versement net des suppléments fédéraux,2012, 69990,286211,910,1784,210,770,30,88,20,57,690,2214,540,1524,58650,211086,8570,67813,360,874
+28,Total income assessed,Revenu total établi,2012, 729430,28191454,409540,18184232,5270,233405,3230,279700,1930,81515,22650,562830,24480,1962121,184680,5481733,64090,878021,13570,527897
+29,Registered pension plan contributions (RPP),Cotisations à un régime de pension agréé (RPA),2012, 147010,510476,138630,498428,90,196,120,315,30,33,540,1027,860,2397,3830,4534,1840,1479,1080,2066
+30,RRSP deduction,Cotisations à un REER,2012, 126980,609529,107420,484550,880,6293,1370,18933,510,4371,3810,19764,3900,31953,5720,18773,1830,2613,1540,22280
+31,Deduction for elected split-pension amount,Déduction pour le choix du montant de pension fractionné,2012, 43510,467501,6670,71644,180,1191,150,2377,60,554,600,5503,1300,13130,33580,363904,230,1168,750,8029
+32,"Annual union, professional, or like dues","Cotisations annuelles syndicales, professionnelles et semblables",2012, 142590,92139,124690,87540,440,198,320,248,130,78,1160,453,1610,798,9360,1575,3660,881,1230,367
+33,Child care expenses,Frais de garde d'enfants,2012, 30720,115581,25650,101710,120,262,280,1299,140,492,1260,3449,700,2806,160,268,2220,4835,190,461
+34,Business investment loss,Perte au titre d'un placement d'entreprise,2012, 190,4241,120,2202,,,,,,,10,422,20,501,20,197,,,10,831
+35,Moving expenses,Frais de déménagement,2012, 3080,14658,2660,12685,,,40,318,,,90,479,60,333,60,236,70,180,90,356
+36,Support payments made,Pension alimentaire payée,2012, 2420,27501,1520,17125,30,412,30,931,20,180,80,758,150,3393,530,4061,40,108,40,533
+37,Carrying charges and interest expenses,Frais financiers et frais d'intérêts,2012, 50510,83754,17570,24878,290,560,440,1267,170,459,960,1554,6470,30602,22860,21078,400,326,1350,3030
+38,Deductions for CPP/QPP contributions on self-employment and other earnings,Déductions pour cotisations au RPC ou au RRQ pour le revenu d'un travail indépendant et pour d'autres revenus,2012, 33000,25474,4960,887,3770,3931,2700,3849,1580,1922,17090,13789,1120,596,970,265,520,125,280,110
+39,Deductions for provincial parental insurance plan (PPIP) premiums on self-employment income,Déduction pour cotisations au Régime provincial d'assurance parentale (RPAP) pour le revenu d'un travail indépendant,2012, ,,,,,,,,,,,,,,,,,,,
+40,Exploration and development expenses,Frais d'exploration et d'aménagement,2012, 860,10803,320,4860,,,30,376,,,10,304,240,3535,220,1276,,,30,408
+41,Other employment expenses,Autres dépenses d'emploi,2012, 23170,91803,21160,84574,60,115,50,291,100,1092,280,1558,250,1046,550,1622,570,886,160,619
+42,Clergy residence deduction,Déduction pour la résidence d'un membre du clergé,2012, 950,10228,840,9489,,,,,,,10,94,10,95,80,441,,,10,79
+43,Other deductions,Autres déductions,2012, 25860,45220,15560,11410,370,232,,,,,470,1065,1270,2468,4400,22408,3120,2090,560,5378
+44,Total deductions before adjustments,Total des déductions avant rajustements,2012, 368100,2109231,253480,1412149,4290,13482,2990,30367,1700,9317,18640,50224,11940,93655,60080,440674,10430,14811,4550,44551
+45,Social benefits repayment,Remboursement des prestations de programmes sociaux,2012, 15040,39478,7860,16293,870,2767,170,745,40,129,160,476,2210,9427,3190,7953,50,84,490,1603
+46,Net income after adjustments,Revenu net après rajustements,2012, 727540,26061874,409260,16756843,5110,218576,3190,249054,1870,72373,21690,524685,24260,1860410,184620,5034293,64020,863394,13520,482246
+47,Canadian Forces personnel and police deduction,Déduction pour le personnel des Forces canadiennes et des forces policières,2012, 190,5563,190,5546,,,,,,,,,,,,,,,,
+48,Security options deductions,Déductions pour options d'achat de titres,2012, 700,15659,640,15246,,,,,,,,,10,91,30,63,,,,
+49,Other payments deductions,Déduction pour autres paiements,2012, 120580,663107,14000,48712,320,1401,50,197,50,191,1090,4407,730,3058,63830,246722,39730,355299,790,3120
+50,Non-capital losses of other years,Pertes autres que des pertes en capital d'autres années,2012, 660,5233,210,1837,,,20,195,20,120,230,1499,80,686,60,400,,,30,374
+51,Net capital losses of other years,Pertes en capital nettes d'autres années,2012, 9790,22665,2960,3688,70,130,120,226,60,75,240,320,1700,12571,4230,4914,70,42,340,699
+52,Capital gains deduction,Déduction pour gains en capital,2012, 970,77042,200,4266,110,7580,,,,,10,456,510,63843,110,473,,,10,202
+53,Northern residents deductions,Déductions pour les habitants de régions éloignées,2012, 480,1163,450,1117,,,,,,,,,,,,,10,17,,
+54,Additional deductions,Déductions supplémentaires,2012, 4170,17442,290,3704,,,,,,,60,238,230,414,3330,11511,150,652,80,795
+55,Farming/fishing losses of prior years,Pertes provenant de la pêche et pertes agricoles d'autres années,2012, 160,1593,40,304,80,951,,,,,,,10,121,20,41,,,,
+56,Total deductions from net income,Total des déductions du revenu net,2012, 135470,809496,18810,84424,550,10115,210,812,130,514,1610,6981,3070,80790,70040,264161,39830,356122,1220,5577
+57,Taxable income assessed,Revenu imposable établi,2012, 710020,25253866,409240,16672501,5090,208576,3190,248245,1870,71860,21640,518108,24240,1779912,184460,4770255,46770,507628,13510,476780
+58,Basic personal amount,Montant personnel de base,2012, 736070,7935752,409530,4411573,5280,57032,3240,34869,1930,20864,22780,245527,24490,264266,184680,1995565,64090,690175,20050,215880
+59,Age amount,Montant en raison de l'âge,2012, 159150,981005,6650,30999,700,3738,220,1044,180,872,1940,11610,3740,17248,136770,858099,7700,50803,1260,6591
+60,Spouse or common-law partner amount,Montant pour époux ou conjoint de fait,2012, 49740,331022,31200,225596,730,4970,220,1546,160,1112,2610,18401,1090,7366,9240,37409,3530,27728,970,6894
+61,Amount for eligible dependant,Montant pour personne à charge admissible,2012, 29980,308902,20750,213148,110,1063,120,1259,90,896,910,9445,300,3018,910,8452,6220,65644,590,5976
+62,Amount for children 17 and under,Montant pour enfants âgés de 17 ans ou moins,2012, 92730,347887,71640,264242,910,3672,620,2523,310,1206,3550,13844,2730,11220,1330,4461,10500,42414,1130,4305
+63,Amount for infirm dependants age 18 or older,Montant pour personnes à charge âgées de 18 ans ou plus et ayant une déficience,2012, 790,4411,380,2076,10,59,,,,,20,137,30,128,300,1746,20,136,20,104
+64,CPP or QPP contributions through employment,Cotisations d'employé au RPC ou au RRQ,2012, 404720,568361,368030,549939,1100,768,610,408,300,130,3860,2232,6160,5896,7960,3392,13650,3719,3050,1876
+65,CPP or QPP contributions on self-employment and other earnings,Cotisations au RPC ou au RRQ pour le revenu d'un travail indépendant et pour d'autres revenus,2012, 33000,25474,4960,887,3770,3931,2700,3849,1580,1922,17090,13789,1120,596,970,265,520,125,280,110
+66,Employment Insurance premiums,Cotisations d'employé à l'assurance-emploi,2012, 417090,223588,372730,213034,3870,2295,480,148,240,51,3310,935,4380,1398,11970,2390,16560,2451,3550,887
+67,PPIP premiums paid,Cotisations au RPAP,2012, ,,,,,,,,,,,,,,,,,,,
+68,PPIP premiums payable on employment income,Cotisations au RPAP à payer sur le revenu d'emploi,2012, ,,,,,,,,,,,,,,,,,,,
+69,PPIP premiums payable on self-employment income,Cotisations au RPAP à payer sur le revenu d'un travail indépendant,2012, ,,,,,,,,,,,,,,,,,,,
+70,Volunteer firefighters' amount,Montant pour les pompiers volontaires,2012, 5590,16757,4110,12341,200,588,,,,,180,543,70,201,630,1878,320,954,60,186
+71,Canada employment amount,Montant canadien pour emploi,2012, 465960,493446,394060,429123,1330,1330,830,783,390,377,4820,4703,8910,9168,28860,21328,21420,21540,5340,5096
+72,Public transit amount,Montant pour le transport en commun,2012, 15890,7388,14050,6640,,,40,16,,,130,42,130,39,660,291,530,245,330,107
+73,Children's fitness amount,Montant pour la condition physique des enfants,2012, 38650,21437,33040,18221,380,184,390,267,190,120,1250,676,1640,1174,330,160,1120,439,320,195
+74,Children's arts amount,Montant pour les activités artistiques des enfants,2012, 12840,6068,10940,5094,70,23,180,113,70,32,410,190,670,419,100,40,290,95,120,61
+75,Home buyers' amount,Montant pour l'achat d'une habitation,2012, 4620,21457,4260,19775,20,110,30,139,10,55,90,416,50,208,50,211,100,429,30,113
+76,Pension income amount,Montant pour revenu de pension,2012, 158620,304440,19050,36221,470,832,350,666,180,343,1820,3425,4620,8681,128370,247462,1240,2083,2520,4727
+77,Caregiver amount,Montant pour aidants naturels,2012, 4910,24325,3090,15243,70,378,20,125,10,67,130,600,120,601,1130,5605,220,1146,110,560
+78,Disability amount ,Montant pour personnes handicapées,2012, 29130,219124,5380,40644,70,548,30,249,20,126,260,1967,680,5162,19360,145465,2580,19386,740,5577
+79,Disability amount transferred from a dependant,Montant pour personnes handicapées transféré d'une personne à charge,2012, 9150,90799,6570,67930,80,750,40,437,20,193,230,2304,210,1863,1290,9863,560,6053,150,1408
+80,Interest paid on student loans,Intérêts payés sur des prêts étudiants,2012, 24090,14633,22020,13378,20,9,160,168,50,39,390,242,220,176,50,18,1070,544,100,59
+81,"Tuition, education, and textbook amounts ","Frais de scolarité, montant relatif aux études et montant pour manuels",2012, 40240,226118,34120,185787,70,309,210,2116,80,393,610,3252,2060,19733,360,902,1990,8924,740,4701
+82,"Tuition, education, and textbook amounts transferred from a child","Frais de scolarité, montant relatif aux études et montant pour manuels transférés d'un enfant",2012, 17470,91163,14490,76112,220,1137,170,965,90,456,490,2560,550,2845,1040,5124,160,664,260,1298
+83,Amounts transferred from spouse or common-law partner,Montants transférés d'un époux ou conjoint de fait,2012, 35320,186608,10970,54453,310,1828,80,429,70,361,1000,4839,640,2978,19390,107512,2320,11677,540,2530
+84,Medical expenses,Montant admissible des frais médicaux,2012, 154900,336182,72300,105548,1280,2828,780,1746,480,949,5690,9924,4950,21708,60620,175023,5820,9451,2990,9004
+85,Total tax credits on personal amounts,Crédits d'impôt nets alloués,2012, 736080,1918001,409530,1049734,5280,13258,3240,8091,1930,4591,22780,52747,24490,57914,184680,544900,64090,145028,20050,41738
+86,Allowable charitable donations and government gifts,Dons de bienfaisance et dons aux gouvernements admissibles,2012, 155930,185473,85830,67996,1400,1428,1310,3785,590,752,3720,3775,6750,37139,51660,64384,1880,906,2790,5307
+87,Eligible cultural and ecological gifts,Montants admissibles des dons de biens culturels ou écosensibles,2012, 250,422,110,35,,,,,,,,,20,175,110,163,,,,
+88,Total tax credit on donations and gifts,Total des crédits d'impôt pour les dons,2012, 154560,50382,84810,18121,1370,386,1310,1066,580,212,3680,1022,6740,10418,51490,17461,1810,218,2760,1478
+89,Total federal non-refundable tax credits,Total des crédits d'impôt non remboursables fédéraux,2012, 736080,1968383,409530,1067856,5280,13644,3240,9158,1930,4803,22780,53768,24490,68333,184680,562361,64090,145246,20050,43216
+90,Federal dividend tax credit,Crédit d'impôt fédéral pour dividendes,2012, 86750,202728,35670,24785,890,1017,730,1102,330,282,1860,1338,17350,158506,27260,14346,610,113,2040,1239
+91,Overseas employment tax credit,Crédit d'impôt pour emploi à l'étranger,2012, 470,5357,470,5338,,,,,,,,,,,,,,,,
+92,Minimum tax carryover,Report d'impôt minimum,2012, 1080,2762,300,956,20,59,,,,,20,61,570,1217,100,230,,,50,187
+93,Basic federal tax ,Impôt fédéral de base,2012, 451730,2503350,308250,1884522,4020,22547,2360,44066,1270,8271,11320,41863,14040,154438,90620,269258,12300,16431,7560,61955
+94,Federal Foreign Tax Credit,Crédit fédéral pour impôt étranger,2012, 22330,17434,9180,12711,170,29,280,182,70,2,440,281,2960,2331,8510,1677,110,4,610,217
+95,Federal Political contribution tax credit,Crédit d'impôt pour contributions politiques fédérales,2012, 4130,647,1420,227,30,5,120,26,20,3,100,13,380,75,1970,284,10,1,80,13
+96,Investment Tax Credit,Crédit d'impôt à l'investissement,2012, 1740,2367,330,472,930,1202,50,123,,,130,208,110,194,160,140,,,20,24
+97,Labour-sponsored funds tax credit,Crédit d'impôt relatif à un fonds de travailleurs,2012, 70,36,50,27,,,,,,,,,,,,,,,,
+98,Alternative minimum tax payable,Impôt minimum de remplacement à payer,2012, 960,3835,200,414,10,44,,,,,,,740,3323,,,,,,
+99,Net federal tax,Impôt fédéral net,2012, 450890,2483339,307810,1871419,3960,21296,2350,43777,1270,8262,11290,41387,13910,151895,90460,267175,12290,16426,7550,61700
+100,CPP contributions on self-employment,Cotisations au RPC à payer pour le revenu d'un travail indépendant et pour d'autres revenus,2012, 33000,50948,4960,1774,3770,7862,2700,7699,1580,3844,17090,27577,1120,1192,970,530,520,250,280,220
+101,Social Benefits repayment,Remboursement des prestation de programmes sociaux,2012, 15040,39478,7860,16293,870,2767,170,745,40,129,160,476,2210,9427,3190,7953,50,84,490,1603
+102,Net Provincial Tax,Impôt provincial ou territorial net,2012, 497010,2005258,318520,1473246,4260,17951,2480,30213,1360,6318,12890,33448,17330,134618,117700,248417,14330,14113,8140,46936
+103,Total tax payable,Total à payer,2012, 511340,4579076,323960,3362733,4650,49877,3010,82449,1720,18557,18970,102920,17680,297133,118130,524075,14950,30874,8280,110459

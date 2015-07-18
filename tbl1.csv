@@ -1,0 +1,46 @@
+PROV_E,PROV_F,Tax year/D'année d'imposition,Number of returns/Nombre de déclarations,"Total income assessed (000,000)/Revenu total établi (000 000)","Total deductions (000,000)/Déductions totales (000 000)","Taxable income assessed (000,000)/Revenu imposable établi (000 000)","Total non-refundable tax credits (000,000)/Total des crédits d'impôts non remboursables (000 000)","Net federal tax (000,000)/Impôt fédéral net (000 000)","Net provincial tax (000,000)/Impôt provincial net (000 000)","Total tax payable (000,000)/Impôt total à payer (000 000)",Return/Déclarations
+Newfoundland and Labrador,Terre-Neuve-et-Labrador,2012,285770,15452,1332,14109,778,1688,1067,2812,Taxable returns/Déclarations imposables
+Prince Edward Island,Ile-du-Prince-Édouard,2012,83330,3777,331,3444,232,333,287,637,Taxable returns/Déclarations imposables
+Nova Scotia,Nouvelle-Écosse,2012,511320,25836,2350,23467,1415,2480,2004,4574,Taxable returns/Déclarations imposables
+New Brunswick,Nouveau-Brunswick,2012,397460,19516,1670,17831,1084,1885,1200,3144,Taxable returns/Déclarations imposables
+Quebec,Québec,2012,3955730,219442,20330,198912,10650,23172,13,23439,Taxable returns/Déclarations imposables
+Ontario,Ontario,2012,6836670,419739,39030,380316,19853,47766,26803,76162,Taxable returns/Déclarations imposables
+Manitoba,Manitoba,2012,647540,33970,3144,30810,1825,3423,2683,6234,Taxable returns/Déclarations imposables
+Saskatchewan,Saskatchewan,2012,547770,33912,3202,30684,1507,3771,2130,6053,Taxable returns/Déclarations imposables
+Alberta,Alberta,2012,2067810,158531,13107,145307,5806,20976,8865,30288,Taxable returns/Déclarations imposables
+British Columbia,Colombie-Britannique,2012,2283190,135460,12555,122771,6362,14713,6156,21470,Taxable returns/Déclarations imposables
+Northwest Territories,Territoires du Nord-Ouest,2012,20860,1646,221,1424,56,208,89,301,Taxable returns/Déclarations imposables
+Yukon,Yukon,2012,19980,1298,193,1104,52,140,63,214,Taxable returns/Déclarations imposables
+Nunavut,Nunavut,2012,11290,869,114,754,31,110,36,147,Taxable returns/Déclarations imposables
+Outside Canada,Hors du Canada,2012,52800,2979,261,2719,74,568,160,730,Taxable returns/Déclarations imposables
+Canada,Canada,2012,17721540,1072428,97842,973651,49724,121233,51556,176206,Taxable returns/Déclarations imposables
+Newfoundland and Labrador,Terre-Neuve-et-Labrador,2012,138450,1560,517,1049,338,0,0,0,Non taxable returns/Déclarations non imposables
+Prince Edward Island,Ile-du-Prince-Édouard,2012,28910,300,82,224,72,0,0,0,Non taxable returns/Déclarations non imposables
+Nova Scotia,Nouvelle-Écosse,2012,224750,2340,590,1773,554,0,0,0,Non taxable returns/Déclarations non imposables
+New Brunswick,Nouveau-Brunswick,2012,205630,2399,590,1822,523,0,0,0,Non taxable returns/Déclarations non imposables
+Quebec,Québec,2012,2436110,29992,7676,22562,6056,0,0,0,Non taxable returns/Déclarations non imposables
+Ontario,Ontario,2012,3232750,30295,10052,20726,7476,0,0,0,Non taxable returns/Déclarations non imposables
+Manitoba,Manitoba,2012,289640,2621,657,2000,741,0,0,0,Non taxable returns/Déclarations non imposables
+Saskatchewan,Saskatchewan,2012,266230,3077,736,2389,674,0,0,0,Non taxable returns/Déclarations non imposables
+Alberta,Alberta,2012,812760,9750,2419,7456,1994,0,0,0,Non taxable returns/Déclarations non imposables
+British Columbia,Colombie-Britannique,2012,1241210,13655,3338,10530,3046,0,0,0,Non taxable returns/Déclarations non imposables
+Northwest Territories,Territoires du Nord-Ouest,2012,10310,105,33,72,24,0,0,0,Non taxable returns/Déclarations non imposables
+Yukon,Yukon,2012,6930,95,32,64,17,0,0,0,Non taxable returns/Déclarations non imposables
+Nunavut,Nunavut,2012,8980,89,36,53,22,0,0,0,Non taxable returns/Déclarations non imposables
+Outside Canada,Hors du Canada,2012,76060,535,323,284,124,0,0,0,Non taxable returns/Déclarations non imposables
+Canada,Canada,2012,8978710,96812,27080,71006,21661,0,0,0,Non taxable returns/Déclarations non imposables
+Newfoundland and Labrador,Terre-Neuve-et-Labrador,2012,424220,17012,1850,15158,1116,1688,1067,2812,All returns/Toutes les déclarations
+Prince Edward Island,Ile-du-Prince-Édouard,2012,112240,4077,412,3668,304,333,287,637,All returns/Toutes les déclarations
+Nova Scotia,Nouvelle-Écosse,2012,736070,28176,2940,25240,1968,2480,2004,4574,All returns/Toutes les déclarations
+New Brunswick,Nouveau-Brunswick,2012,603090,21915,2260,19654,1607,1885,1200,3144,All returns/Toutes les déclarations
+Quebec,Québec,2012,6391840,249434,28006,221474,16706,23172,13,23439,All returns/Toutes les déclarations
+Ontario,Ontario,2012,10069420,450033,49082,401042,27329,47766,26803,76162,All returns/Toutes les déclarations
+Manitoba,Manitoba,2012,937180,36591,3801,32810,2567,3423,2683,6234,All returns/Toutes les déclarations
+Saskatchewan,Saskatchewan,2012,814000,36988,3938,33073,2180,3771,2130,6053,All returns/Toutes les déclarations
+Alberta,Alberta,2012,2880570,168281,15526,152763,7799,20976,8865,30288,All returns/Toutes les déclarations
+British Columbia,Colombie-Britannique,2012,3524400,149115,15893,133301,9408,14713,6156,21470,All returns/Toutes les déclarations
+Northwest Territories,Territoires du Nord-Ouest,2012,31170,1751,254,1496,80,208,89,301,All returns/Toutes les déclarations
+Yukon,Yukon,2012,26920,1393,225,1169,69,140,63,214,All returns/Toutes les déclarations
+Nunavut,Nunavut,2012,20270,958,151,808,54,110,36,147,All returns/Toutes les déclarations
+Outside Canada,Hors du Canada,2012,128860,3514,583,3002,198,568,160,730,All returns/Toutes les déclarations
+Canada,Canada,2012,26700250,1169240,124922,1044657,71385,121233,51556,176206,All returns/Toutes les déclarations

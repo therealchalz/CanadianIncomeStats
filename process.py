@@ -88,9 +88,33 @@ def processFile(file, province):
 			line = next(csvreader, None)
 			currentRow+=1
 
+	totalReturns = 0
 	for pop in populations:
 		pop.finish()
 		print "Pop: ", pop.avgIncome, " ", pop.count, " ", pop.province, " ", pop.totalIncome
+		totalReturns += pop.totalReturns
+
+	print "Total returns: ", totalReturns
+
+	percent = 8
+	
+	topStart = totalReturns * (100-percent) / 100 
+	topWorth = 0
+	bottomWorth = 0
+	returnsSoFar = 0
+	for pop in populations:
+		if returnsSoFar + pop.totalReturns < topStart:
+			bottomWorth += pop.totalIncome
+		elif returnsSoFar >= topStart:
+			topWorth += pop.totalIncome
+		else:
+			numBottom = topStart - returnsSoFar
+			bottomWorth += pop.avgIncome * numBottom
+			topWorth += pop.avgIncome * (pop.totalReturns - numBottom)
+		returnsSoFar += pop.totalReturns
+
+
+	print "Top", percent, "% of people ("+str((totalReturns*percent/100))+") got", (topWorth*100/(topWorth+bottomWorth)), "% of the income"
 		
 
 
