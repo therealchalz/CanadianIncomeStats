@@ -10,8 +10,7 @@ csvFormat={"firstDataRow": 2,
 	"firstPopColumnCount": 7, 
 	"firstPopColumnAmount": 8, 
 	"columnIncrement": 2, 
-	"maxColumnIndex": 44, 
-	"firstPopColumnAmount": 8}
+	"maxColumnIndex": 44}
 
 # row number to Population field mapping
 rowFields={29:"totalIncome", 
@@ -69,7 +68,30 @@ def parseRowForData(populations, row, rowNumber):
 			popIdx+=1
 			popCol+=csvFormat["columnIncrement"]
 			
-		
+def percentCalc(populations, percent, totalReturns):
+	topStart = totalReturns * (100-percent) / 100 
+	topWorth = 0
+	topTaxPaid = 0
+	bottomWorth = 0
+	bottomTaxPaid = 0
+	returnsSoFar = 0
+	for pop in populations:
+		if returnsSoFar + pop.totalReturns < topStart:
+			bottomWorth += pop.totalIncome
+			bottomTaxPaid += pop.totalTaxPayable
+		elif returnsSoFar >= topStart:
+			topWorth += pop.totalIncome
+			topTaxPaid += pop.totalTaxPayable
+		else:
+			numBottom = topStart - returnsSoFar
+			bottomWorth += pop.avgIncome * numBottom
+			bottomTaxPaid += pop.avgTaxPayable * numBottom
+			topWorth += pop.avgIncome * (pop.totalReturns - numBottom)
+			topTaxPaid += pop.avgTaxPayable * (pop.totalReturns - numBottom)
+		returnsSoFar += pop.totalReturns
+
+	print "Top", percent, "% of people ("+str((totalReturns*percent/100))+") got", (topWorth*100/(topWorth+bottomWorth)), "% of the income and paid", (topTaxPaid*100/(topTaxPaid+bottomTaxPaid)), "% of the tax"
+	
 def processFile(file, province):
 	print "Processing ",file
 	populations = []
@@ -97,37 +119,16 @@ def processFile(file, province):
 	totalReturns = 0
 	for pop in populations:
 		pop.finish()
-		print "Pop: ", pop.avgIncome, " ", pop.count, " ", pop.province, " ", pop.totalIncome, " ", pop.avgTaxPayable
+		# print "Pop: ", pop.avgIncome, " ", pop.count, " ", pop.province, " ", pop.totalIncome, " ", pop.avgTaxPayable
 		totalReturns += pop.totalReturns
 
+	print "Province:", province
 	print "Total returns: ", totalReturns
 
-	percent = 1
-	
-	topStart = totalReturns * (100-percent) / 100 
-	topWorth = 0
-	topTaxPaid = 0
-	bottomWorth = 0
-	bottomTaxPaid = 0
-	returnsSoFar = 0
-	for pop in populations:
-		if returnsSoFar + pop.totalReturns < topStart:
-			bottomWorth += pop.totalIncome
-			bottomTaxPaid += pop.totalTaxPayable
-		elif returnsSoFar >= topStart:
-			topWorth += pop.totalIncome
-			topTaxPaid += pop.totalTaxPayable
-		else:
-			numBottom = topStart - returnsSoFar
-			bottomWorth += pop.avgIncome * numBottom
-			bottomTaxPaid += pop.avgTaxPayable * numBottom
-			topWorth += pop.avgIncome * (pop.totalReturns - numBottom)
-			topTaxPaid += pop.avgTaxPayable * (pop.totalReturns - numBottom)
-		returnsSoFar += pop.totalReturns
-
-
-	print "Top", percent, "% of people ("+str((totalReturns*percent/100))+") got", (topWorth*100/(topWorth+bottomWorth)), "% of the income and paid", (topTaxPaid*100/(topTaxPaid+bottomTaxPaid)), "% of the tax"
-
+	for i in range(1,11):
+		percentCalc(populations, i, totalReturns)
+	for i in range(15,101,5):
+		percentCalc(populations, i, totalReturns)
 
 if __name__ == "__main__":
 	provinceIndex = 0
