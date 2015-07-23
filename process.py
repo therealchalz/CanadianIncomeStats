@@ -1,4 +1,24 @@
 #!/usr/bin/python
+
+
+"""
+Copyright (C) 2015  Charles Hache (chache at member.fsf.org)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+"""
+
+
 import csv
 
 files=["tbl2ab.csv","tbl2bc.csv","tbl2mb.csv","tbl2nb.csv","tbl2nl.csv","tbl2ns.csv","tbl2nt.csv","tbl2nu.csv","tbl2on.csv","tbl2pe.csv","tbl2qc.csv","tbl2sk.csv","tbl2yt.csv"]
@@ -90,7 +110,7 @@ def percentCalc(populations, percent, totalReturns):
 			topTaxPaid += pop.avgTaxPayable * (pop.totalReturns - numBottom)
 		returnsSoFar += pop.totalReturns
 
-	print "Top", percent, "% of people ("+str((totalReturns*percent/100))+") got", (topWorth*100/(topWorth+bottomWorth)), "% of the income and paid", (topTaxPaid*100/(topTaxPaid+bottomTaxPaid)), "% of the tax"
+	print "Top", percent, "% of people ("+str((totalReturns*percent/100))+") got", (topWorth*100/(topWorth+bottomWorth)), "% of the income and paid", (topTaxPaid*100/(topTaxPaid+bottomTaxPaid)), "% of the tax (with an average effective taxrate of", (topTaxPaid*100/topWorth), "%)"
 	
 def processFile(file, province):
 	print "Processing ",file
